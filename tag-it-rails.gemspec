@@ -5,7 +5,7 @@ require 'tag/it/rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "tag-it-rails"
-  spec.version       = Tag::It::Rails::VERSION
+  spec.version       = TagIt::Rails::VERSION
   spec.authors       = ["adorechic"]
   spec.email         = ["adorechic@gmail.com"]
 
