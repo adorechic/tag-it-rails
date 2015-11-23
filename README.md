@@ -1,8 +1,8 @@
-# Tag::It::Rails
+# tag-it-rails
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/tag/it/rails`. To experiment with that code, run `bin/console` for an interactive prompt.
+[Tag-it!](http://aehlke.github.io/tag-it/) is a simple and configurable tag editing widget with autocomplete support.
 
-TODO: Delete this and the text above, and describe your gem
+tag-it-rails is a gemified Tag-it! for rails.
 
 ## Installation
 
@@ -16,13 +16,20 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install tag-it-rails
-
 ## Usage
+require on your rails application.js and application.css
 
-TODO: Write usage instructions here
+```javascript
+//= require jquery-ui
+//= require tag-it
+```
+
+```css
+*= require jquery-ui
+*= require jquery.tagit.css
+```
+
+See [original documents](http://aehlke.github.io/tag-it/) for usage of Tag-it!
 
 ## Development
 
@@ -38,4 +45,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
